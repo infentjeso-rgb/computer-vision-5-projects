@@ -1,0 +1,16 @@
+# Python virtual environment
+cv_env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# YOLO temporary/cache files
+*.cache

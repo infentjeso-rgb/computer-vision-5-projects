@@ -1,0 +1,55 @@
+PROJECT 1: REAL-TIME OBJECT DETECTION FOR ROBOTIC APPLICATIONS
+===============================================================
+
+Model: YOLO11n
+Dataset: COCO128
+Images: 128
+Instances: 929
+Image Size: 640
+Batch Size: 1
+GPU: NVIDIA GeForce RTX 3050 Laptop GPU
+
+OVERALL PERFORMANCE
+-------------------
+Precision: 66.7%
+Recall: 59.9%
+mAP@50: 67.4%
+mAP@50-95: 50.8%
+
+SPEED
+-----
+Preprocessing: 0.6 ms/image
+Inference: 6.7 ms/image
+Post-processing: 0.8 ms/image
+
+ROBOTIC OBSTACLE CLASSES
+------------------------
+Person:
+  Precision: 78.2%
+  Recall: 69.3%
+  mAP@50: 78.4%
+
+Bicycle:
+  Precision: 38.1%
+  Recall: 16.7%
+  mAP@50: 42.2%
+
+Car:
+  Precision: 63.9%
+  Recall: 19.6%
+  mAP@50: 23.8%
+
+Motorcycle:
+  Precision: 62.4%
+  Recall: 100.0%
+  mAP@50: 99.5%
+
+Bus:
+  Precision: 84.6%
+  Recall: 71.4%
+  mAP@50: 72.2%
+
+EVALUATION RESULT
+-----------------
+Evaluation completed successfully using the local
+COCO128 dataset in this project.
