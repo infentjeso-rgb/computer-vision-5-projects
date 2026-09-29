@@ -1,0 +1,15 @@
+TuSimple Lane Detection Evaluation
+===================================
+Result images: 150
+GT-matched images: 142
+Successful detections: 123
+Incomplete detections: 19
+Detection completeness: 86.62%
+Mean Absolute Error: 65.91 pixels
+Median Error: 39.50 pixels
+Accuracy <= 50 pixels: 55.28%
+
+Predicted status:
+LANE SAFE: 80
+DEPARTURE LEFT: 12
+DEPARTURE RIGHT: 31
