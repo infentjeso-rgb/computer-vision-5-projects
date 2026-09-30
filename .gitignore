@@ -14,3 +14,12 @@ Thumbs.db
 
 # YOLO temporary/cache files
 *.cache
+
+# Project 3 - Smart Parking
+03_smart_parking_detection/dataset/
+03_smart_parking_detection/runs/
+03_smart_parking_detection/weights/
+03_smart_parking_detection/yolo11n.pt
+03_smart_parking_detection/results/*.mp4
+03_smart_parking_detection/results/*.avi
+03_smart_parking_detection/models/pklot_yolo11n.pt

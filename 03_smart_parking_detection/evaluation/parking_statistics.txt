@@ -1,0 +1,11 @@
+SMART PARKING EVALUATION
+========================
+Input video: dataset/videos/parking_new.mp4
+Video frames: 895
+FPS: 30.00
+Stable parking spaces: 23
+Empty spaces: 5
+Occupied spaces: 18
+Occupancy: 78.26%
+Confidence threshold: 0.25
+Sampling interval: 10 frames
