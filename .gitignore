@@ -23,3 +23,8 @@ Thumbs.db
 03_smart_parking_detection/results/*.mp4
 03_smart_parking_detection/results/*.avi
 03_smart_parking_detection/models/pklot_yolo11n.pt
+
+# Project 4 - Fruit Quality Inspection
+04_fruit_quality_inspection/dataset/
+04_fruit_quality_inspection/dataset_split/
+04_fruit_quality_inspection/models/*.pth
