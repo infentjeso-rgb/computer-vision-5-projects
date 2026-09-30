@@ -1,0 +1,34 @@
+FRUIT QUALITY INSPECTION - FINAL EVALUATION
+
+Model: MobileNetV3 Small
+Task: Fresh/Good vs Rotten/Defective Classification
+Device: NVIDIA GPU / CUDA
+
+Training images: 369
+Validation images: 79
+Test images: 81
+Epochs: 8
+
+Best Validation Accuracy: 89.87%
+Test Accuracy: 98.77%
+
+Classification Report:
+
+Defective:
+Precision: 1.0000
+Recall:    0.9655
+F1-score: 0.9825
+Support:   29
+
+Good:
+Precision: 0.9811
+Recall:    1.0000
+F1-score: 0.9905
+Support:   52
+
+Macro F1-score: 0.9865
+Weighted F1-score: 0.9876
+
+Confusion Matrix:
+[[28, 1],
+ [ 0, 52]]
