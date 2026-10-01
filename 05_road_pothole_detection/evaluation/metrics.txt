@@ -1,0 +1,42 @@
+ROAD POTHOLE DETECTION - EVALUATION RESULTS
+
+Model:
+YOLO11n
+
+Dataset:
+chitholian/annotated-potholes-dataset
+
+Dataset split:
+Train: 465 images
+Validation: 99 images
+Test: 101 images
+
+Valid bounding boxes:
+1739
+
+TRAINING / VALIDATION BEST RESULTS
+Precision: 0.792
+Recall: 0.679
+mAP50: 0.778
+mAP50-95: 0.493
+
+TEST RESULTS
+Test images: 101
+Test instances: 239
+
+Precision: 0.8200
+Recall: 0.6480
+mAP50: 0.7717
+mAP50-95: 0.4888
+
+TEST INFERENCE SPEED
+Preprocess: 1.5 ms/image
+Inference: 5.5 ms/image
+Postprocess: 1.5 ms/image
+
+LIVE CAMERA TEST
+Observed FPS: approximately 14.7 FPS
+
+EXAMPLE IMAGE TEST
+Input: img-300.jpg
+Detected potholes: 8

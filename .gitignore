@@ -28,3 +28,12 @@ Thumbs.db
 04_fruit_quality_inspection/dataset/
 04_fruit_quality_inspection/dataset_split/
 04_fruit_quality_inspection/models/*.pth
+
+# Project 5 - Road Pothole Detection
+05_road_pothole_detection/dataset/
+05_road_pothole_detection/runs/
+05_road_pothole_detection/models/*.pt
+05_road_pothole_detection/*.pt
+
+# Project 5 downloaded model weights
+05_road_pothole_detection/weights/
